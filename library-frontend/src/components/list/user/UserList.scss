@@ -1,0 +1,31 @@
+$primary-color: #1976d2;
+
+.container {
+  padding: 16px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.title {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.table-container {
+  margin-bottom: 16px;
+}
+
+.button-container {
+  display: flex;
+  float: right;
+  margin-bottom: 16px;
+}
+
+.view-all-button {
+  padding: 12px 16px;  
+}
+
+.link {
+  text-decoration: none;
+  color: $primary-color;
+}

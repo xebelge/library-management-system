@@ -1,0 +1,52 @@
+$primary-color: #1976d2;
+$secondary-color: #dc004e;
+
+.container {
+  padding: 16px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.title {
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.section-title {
+  margin-top: 32px;
+  font-weight: bold;
+  margin-bottom: 16px; 
+}
+
+.table-container {
+  margin-top: 16px;
+}
+
+.spacing {
+  margin-top: 16px;
+}
+
+.view-button-container {
+  margin-top: 16px;
+  display: flex;
+
+}
+
+.view-button {
+  text-align: center;
+}
+
+.button-spacing {
+  margin-top: 16px;
+}
+
+.button {
+  &.primary {
+    background-color: $primary-color;
+  }
+
+  &.secondary {
+    background-color: $secondary-color;
+  }
+
+}
